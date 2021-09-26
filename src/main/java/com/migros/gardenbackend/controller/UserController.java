@@ -19,7 +19,7 @@ public class UserController {
         this.userService = userService;
     }
 
-    @CrossOrigin(origins={"http://localhost:3000","http://33339.hostserv.eu:3000","http://migros-gardener.web.app:80"})
+    @CrossOrigin(origins={"http://localhost:3000","http://33339.hostserv.eu:3000","https://migros-gardener.web.app:80"})
     @GetMapping("/user")
     @ResponseStatus(HttpStatus.OK)
     @ResponseBody
